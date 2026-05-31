@@ -28,7 +28,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to Portfolio
         </Link>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-xl overflow-hidden border border-border/50 bg-card/50">
             <img src={project.image} alt={project.title} className="w-full h-auto object-cover" />
           </div>
