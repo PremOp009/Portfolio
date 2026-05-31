@@ -44,10 +44,10 @@ export function Navbar() {
       </Link>
 
       <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted">
-        <Link href="#projects" className="hover:text-white transition-colors">Projects</Link>
-        <Link href="#skills" className="hover:text-white transition-colors">Skills</Link>
-        <Link href="#experience" className="hover:text-white transition-colors">Experience</Link>
-        <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
+        <Link href="/#projects" className="hover:text-white transition-colors">Projects</Link>
+        <Link href="/#skills" className="hover:text-white transition-colors">Skills</Link>
+        <Link href="/#experience" className="hover:text-white transition-colors">Experience</Link>
+        <Link href="/#contact" className="hover:text-white transition-colors">Contact</Link>
       </nav>
 
       <div className="flex items-center gap-4">
