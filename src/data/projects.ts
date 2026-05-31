@@ -6,9 +6,9 @@ export const projects = [
   {
     slug: "genurl",
     title: "GenURL",
-    description: "A comprehensive web application for generating, managing, and tracking URLs efficiently.",
+    description: "A modern URL Shortener with Chrome Extension support built using TypeScript and Tailwind CSS.",
     image: genUrlImg.src,
-    tags: ["React", "TypeScript", "Tailwind CSS", "Web"],
+    tags: ["TypeScript", "Tailwind CSS", "Chrome Extension"],
     github: "https://github.com/PremOp009/CodeAlpha_GenURL",
     demo: "https://genurl-prem.vercel.app/",
     content: {
@@ -20,53 +20,53 @@ export const projects = [
         "Modern UI with Tailwind CSS",
         "Fully responsive design",
         "Chrome Extension support",
-        "Cloud deployment with Vercel",
-        "Built using TypeScript"
+        "Cloud deployment with Vercel"
       ],
       techStack: ["TypeScript", "Tailwind CSS", "HTML5", "Javascript", "Python", "Vercel", "Chrome Extension APIs"]
     }
   },
   {
     slug: "fitpromixai",
-    title: "FitpromixAI",
-    description: "A comprehensive SaaS platform featuring a retention engine, automated notifications, community feed, and advanced reporting.",
+    title: "FitProMix AI",
+    description: "Transform your fitness journey with smart AI-powered workout plans, nutrition guidance, and personalized health tracking.",
     image: fitpromixaiImg.src,
-    tags: ["React", "Firebase", "Node.js", "TypeScript"],
+    tags: ["React", "AI", "Tailwind CSS", "Vite"],
     github: "https://github.com/PremOp009/fitpromixai",
     demo: "https://fitpromixai.vercel.app/",
     content: {
-      overview: "FitpromixAI is an advanced SaaS application designed to enhance customer retention through automated notifications and detailed reporting. It serves as a community hub with integrated analytics.",
+      overview: "FitProMix AI combines modern web technologies with intelligent fitness assistance to create an engaging and personalized fitness platform. Whether you're a beginner or fitness enthusiast, the platform helps users stay motivated and organized.",
       features: [
-        "Comprehensive retention engine",
-        "Automated push notifications",
-        "Interactive community feed",
-        "Advanced data reporting and analytics",
-        "Secure user authentication",
-        "Real-time database integration"
+        "Personalized workout recommendations & smart guidance",
+        "Meal planning assistance & nutrition monitoring",
+        "Track workout progress & monitor fitness goals",
+        "Responsive design & smooth animations",
+        "Optimized frontend for fast loading experience",
+        "AI-generated health suggestions"
       ],
-      techStack: ["React", "Next.js", "Firebase", "Node.js", "TypeScript", "Tailwind CSS"]
+      techStack: ["React.js", "Tailwind CSS", "JavaScript / TypeScript", "Vite", "Vercel", "AI Recommendation System"]
     }
   },
   {
     slug: "jigs-events",
-    title: "Jigs-Events",
-    description: "An elegant event management platform to seamlessly discover, create, and host dynamic events.",
+    title: "Jigs Events",
+    description: "An AI-powered full-stack Event Management & Ticket Registration Platform with QR Authentication.",
     image: jigsEventsImg.src,
-    tags: ["React", "Node.js", "Tailwind CSS", "Web"],
+    tags: ["React", "Django", "React Native", "AI"],
     github: "https://github.com/PremOp009/CodeAlpha_Jigs-event",
     demo: "https://jigs-event.vercel.app/",
     content: {
       overview: "Jigs Events is a modern event management ecosystem that allows organizers to create and manage events while users can browse, register, purchase tickets, and receive QR-based digital passes. The platform also includes a dedicated Android Scanner App for real-time ticket verification during event entry.",
       features: [
-        "JWT Authentication with User / Organizer / Admin Roles",
+        "JWT Authentication (User, Organizer, Admin Roles)",
         "Create, Edit & Delete Events with Categories & Filtering",
         "AI-Generated Event Descriptions using Hugging Face",
-        "Smart Ticketing System with QR Code Generation",
+        "Smart Ticketing System with QR Code Generation & PDF Downloads",
         "Online Ticket Payments via Razorpay",
         "Dedicated Android QR Scanner App for real-time validation",
-        "Comprehensive Dashboards for Users, Organizers, and Admins"
+        "Comprehensive Dashboards for Users, Organizers, and Admins",
+        "Glassmorphism UI with Futuristic Dark Theme"
       ],
-      techStack: ["React", "TypeScript", "Django REST Framework", "Razorpay", "Hugging Face AI", "Tailwind CSS"]
+      techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "Django REST Framework", "SimpleJWT", "PostgreSQL", "Razorpay", "Hugging Face API", "qrcode", "ReportLab", "React Native", "Expo", "Vercel", "Render"]
     }
   }
 ];
