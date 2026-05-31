@@ -901,6 +901,9 @@ video {
 .flex-1 {
   flex: 1 1 0%;
 }
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
 .flex-grow {
   flex-grow: 1;
 }
@@ -968,6 +971,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-3 {
+  gap: 0.75rem;
+}
 .space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1004,6 +1010,9 @@ video {
 }
 .border-4 {
   border-width: 4px;
+}
+.border-2 {
+  border-width: 2px;
 }
 .border-y {
   border-top-width: 1px;
@@ -1045,6 +1054,9 @@ video {
 }
 .border-transparent {
   border-color: transparent;
+}
+.border-accent\/50 {
+  border-color: rgb(99 102 241 / 0.5);
 }
 .border-r-accent\/50 {
   border-right-color: rgb(99 102 241 / 0.5);

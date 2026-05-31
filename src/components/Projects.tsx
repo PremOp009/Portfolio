@@ -7,18 +7,18 @@ import { Badge } from "./ui/badge";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 
-import prompterXImg from "../../PrompterX.png";
 import fitpromixaiImg from "../../fitpromixai.png";
-import pfsCoffeeBarImg from "../../PFS coffee bar.png";
+import genUrlImg from "../../GenURL portfolio.png";
+import jigsEventsImg from "../../jigs events portfolio.png";
 
 const projects = [
   {
-    title: "PrompterX⚡",
-    description: "An AI-powered prompt generator with dynamic category switching, real-time typing animation, and clipboard integration.",
-    image: prompterXImg.src,
-    tags: ["TypeScript", "Next.js", "AI/LLMs", "Tailwind CSS"],
-    github: "https://github.com/PremOp009/PrompterX",
-    demo: "#",
+    title: "GenURL",
+    description: "A comprehensive web application for generating, managing, and tracking URLs efficiently.",
+    image: genUrlImg.src,
+    tags: ["React", "TypeScript", "Tailwind CSS", "Web"],
+    github: "https://github.com/PremOp009/CodeAlpha_GenURL",
+    demo: "https://genurl-prem.vercel.app/",
   },
   {
     title: "FitpromixAI",
@@ -29,12 +29,12 @@ const projects = [
     demo: "https://fitpromixai.vercel.app/",
   },
   {
-    title: "PFS Coffee Bar",
-    description: "Premium coffee shop mobile app with a sophisticated dark-mode aesthetic, glassmorphism, and complex animations.",
-    image: pfsCoffeeBarImg.src,
-    tags: ["Flutter", "Dart", "Rive", "Firebase"],
-    github: "https://github.com/PremOp009/PFS-Coffee-Bar",
-    demo: "#",
+    title: "Jigs-Events",
+    description: "An elegant event management platform to seamlessly discover, create, and host dynamic events.",
+    image: jigsEventsImg.src,
+    tags: ["React", "Node.js", "Tailwind CSS", "Web"],
+    github: "https://github.com/PremOp009/CodeAlpha_Jigs-event",
+    demo: "https://jigs-event.vercel.app/",
   },
 ];
 
